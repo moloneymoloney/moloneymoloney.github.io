@@ -1,0 +1,920 @@
+/*{border-style:solid;
+}*/
+
+html{
+	overflow-y: scroll;
+overflow-x: hidden;
+}
+
+body{
+	background-color:rgba(244, 241, 241, 0);
+	width:100%;
+	margin:0em 0 0 0;
+	font-family:arial;
+	font-size:16px;
+
+}
+
+h3{
+	font-size:500%;
+	text-align:center;
+	font-family:"showcard gothic";
+	color:gold;
+	line-height: 100%;
+	text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	margin: 0 0 0 0;
+	background:0;
+}
+
+h4{
+	font-size:250%;
+	text-align:center;
+	font-family:"showcard gothic";
+	color:rgb(173,255,47);
+	line-height: 1.25%;
+	text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	margin:.5em 0 0em 0;
+	background:0;
+}
+
+.heading{
+	width:30%;
+	padding-left:5%;
+	padding-top:10px;
+	overflow:hidden;
+	float:left;
+	height:130px;
+	background:lightgreen;
+	border-style:solid;
+	border-width:0 0 4px 0;
+	border-color: rgba(144,218,144,1);
+}
+
+.heading1{
+	width:65%;
+	overflow:hidden;
+	float:right;
+	margin:0 0% 0 0;
+	padding-top:10px;
+	height:130px;
+	background:lightgreen;
+	border-style:solid;
+	border-width:0 0 4px 0;
+	border-color: rgba(144,218,144,1);
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    background-color: ;
+    text-align: center;
+	margin-bottom:1em;
+	position: relative;
+	top: 70%;
+	transform: translateY(-40%);
+	font-family: 'Lato', sans-serif;
+
+}
+
+.topnav {
+ 
+	  float: center;
+	 display: inline-block;
+	 border-radius: 12px;
+}
+
+.topnav .booknow:not(.active) {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    text-decoration: none;
+	font-size: 30px;
+	margin: 0px 5px;
+	line-height:20px;
+	font-size:30px;
+	width:155px;
+	overflow:hidden;
+}
+
+.topnav .booknow:hover {
+    background-color:white;
+	color:black;
+	border-radius:20px;
+}
+.active{
+	display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 0px;
+    text-decoration: none;
+	font-size: 30px;
+	margin: 0px 5px;
+	line-height:20px;
+	font-size:30px;
+	width:155px;
+	overflow:hidden;
+	background:white;
+	border-radius:20px;
+}
+
+
+.openingimage{
+	width:40%;
+	background:url("images/woodland.jpg")  no-repeat;
+	background-size:cover;
+	height:350px;
+	float:left;
+	margin-left:10%;
+}
+
+.openingimage1{
+	float:left;
+	width:40%;
+	background:url("images/sheep.jpg")  no-repeat;
+	background-size:cover;
+	height:350px;
+}
+.openingimage3{
+	width:40%;
+	background:url("images/ducklings.jpg")  no-repeat;
+	background-size:cover;
+	height:350px;
+	float:left;
+	margin-left:10%;
+	overflow:hidden;
+}
+
+.openingimage4{
+	float:left;
+	width:40%;
+	background:url("images/comedyclub.jpg")  no-repeat;
+	background-size:cover;
+	height:350px;
+	overflow:hidden;
+}
+
+.openingbutton{
+	padding:126px;
+	font-size:80px;
+	text-align:center;
+	background: rgba(0,0,0, 0);
+	color:white;
+	font-weight: bold;	
+	font-family: 'Lato', sans-serif;
+}
+
+.openingbutton:hover{
+	text-align:center;
+	background: rgba(0,0,0, .2);
+	color:white;
+	font-weight: bold;	
+	height:350px;
+}
+
+.buttonlink{
+	text-decoration:none;  
+	color:white;
+}
+
+.firstopeningimage{
+	width:80%;
+	background:url("images/view.jpg")  no-repeat;
+	background-size: 100% 100%;
+	height:500px;
+	float:left;
+	margin-left:10%;
+}
+
+footer{
+	background-color: rgba(144,238,144,1);
+	margin: 0px 0 0 0;
+	padding-left:10%;
+	padding-right:auto;
+	padding-top: 25px;
+	height: 250px;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	bottom: 0px;
+	float:left;
+	width:100%;
+	border-style:solid;
+	border-width:10px 0 0px 0;
+	border-color: rgba(144,218,144,1);
+	
+}
+.footernav{
+	float:left;
+	margin:0;
+	list-style-type: none;
+}
+
+.listlink{
+	margin:0;
+	padding:0;
+	font-size:35px;
+	color:white;
+	line-height:30px;
+	text-decoration: none;
+}
+
+.listlink:hover{
+	margin:0;
+	padding:0;
+	font-size:35px;
+	color:black;
+	line-height:30px;
+	text-decoration: none;
+}
+
+.divide78{
+	float:right;
+	background-color: rgba(255,255,255,0.7);
+	border-radius:20px;
+	padding:15px 0 0 25px;
+	margin-right:250px;
+}
+
+
+.mySlides {
+	display:none;
+	height:400px;
+	margin:0;
+	padding:0;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width:80%;
+  height:400px;
+  position: relative;
+  margin: 0px 10% 0 10%;
+  float:left;
+  padding:0;
+}
+
+/* Caption text */
+.texts1 {
+  color: #f2f2f2;
+  padding:100px 0;
+  position: absolute;
+   top: 50%;
+  transform: translateY(-50%);
+  width: auto;
+  text-align: center;
+  font-family: 'Patrick Hand SC', cursive;
+  font-size:80px;
+  line-height:60px;
+  background: rgba(0,0,0,.2);
+  background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0)); /* Standard syntax */
+  height:200px;
+}
+
+.texts2 {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 100px 0;
+  position: absolute;
+ top: 50%;
+  transform: translateY(-50%);
+  width: auto;
+  text-align: center;
+  font-family: 'Patrick Hand SC', cursive;
+  font-size:80px;
+  line-height:65px;
+    background: rgba(0,0,0,.2);
+  background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0)); /* Standard syntax */
+  height:200px;
+}
+
+.texts3 {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding:0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  font-family: 'Patrick Hand SC', cursive;
+  font-size:80px;
+  line-height:65px;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 0px;
+  width: 0px;
+  margin: 0 0px;
+  background-color: #bbb;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  padding:0
+}
+
+.active1 {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+
+
+.strip{
+	float:left;
+	width:69%;
+	height:200px;
+	margin:1.5% 15.5% 0% 15.5%;
+}
+
+.box1{
+	width:22%;
+	margin:1.5% 1.5% 0% 15.5%;
+	height:480px;
+	float:left;
+	background: #ff6666;
+	border-style:solid;
+	border-width:0 0 20px 0;
+	border-color:#e55b5b;
+}
+
+.box2{
+	width:22%;
+	margin:1.5% 0% 0% 0%;
+	height:480px;
+	float:left;
+	background: #C0E4F9;
+	border-style:solid;
+	border-width:0 0 20px 0;
+	border-color:#accde0;
+}
+
+.box3{
+	width:22%;
+	margin:1.5% 15.5% 0% 1.5%;
+	height:480px;
+	float:left;
+	background: #ffc04c;
+	border-style:solid;
+	border-width:0 0 20px 0;
+	border-color: #e5ac44;
+}
+.box4{
+	width:22%;
+	margin:1.5% 1.5% 0% 15.5%;
+	height:480px;
+	float:left;
+	background:#ffff66;
+	border-style:solid;
+	border-width:0 0 20px 0;
+	border-color: #e5e55b;
+}
+
+.box5{
+	width:22%;
+	margin:1.5% 0%;
+	height:480px;
+	float:left;
+	background:#ffc3a0;
+	border-style:solid;
+	border-width:0 0 20px 0;
+	border-color: #e5af90;
+}
+
+.box6{
+	width:22%;
+	margin:1.5% 15.5% 0% 1.5%;
+	height:480px;
+	float:left;
+	background:#C39797;
+	border-style:solid;
+	border-width:0 0 20px 0;
+	border-color: #af8787;
+}
+
+h6{
+	text-align:center;
+	color:white;
+	font-size:50px;
+	background-color:;
+	margin:15px 0 0 0;
+	font-family: 'Patrick Hand SC', cursive;
+}
+
+.boxp{
+	font-size:22px;
+	color:white;
+	margin:0;
+	padding:0 15px;
+	font-family:arial;
+}
+
+
+.mySlides1 {
+	display:none;
+	height:100%;
+	width:100%;
+}
+
+/* Slideshow container */
+.slideshow-container1 {
+  width:80%;
+  height:500px;
+  position: relative;
+  margin: auto;
+  float:left;
+  margin: 2% 10% 0 10%;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot1 {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 4px 2px 0px 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active1, .dot1:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+.aboutanamils1{
+	width:85%;
+	margin: 0% 7.5%;
+	background-color:white;
+	float:left;
+	padding-bottom:0%;
+}
+
+h1{
+	font-size:90px;
+	color:black;
+	text-align:center;
+	background-color:;
+	margin:10px 5px 0 5px;
+	font-family: 'Patrick Hand SC', cursive;
+	line-height:85px;
+	float:left;
+	width:100%;
+	
+}
+
+h2{
+	font-size:75px;
+	text-align:center;
+	background-color:;
+	margin:0 5px;
+	font-family: 'Patrick Hand SC', cursive;
+	line-height:70px;
+}
+
+.description{
+	margin:1%;
+	color: white;
+	font-size:20px;
+	text-align:center;
+}
+
+.a1{
+	width: 100%;
+	min-height: 300px;
+	float: left;
+	background-color:;
+	margin: 1% 0;
+	border-color:palegreen;
+}.i11{
+	width: 33.33%;
+    width: calc(100% / 3);
+	height:225px;
+	float:left;
+	margin:0;
+	position: relative;
+	
+	background:url("images/lambs.jpg")  no-repeat;
+	background-size:cover;
+	border-style:solid;
+	border-color:white;
+	border-width:0;
+}.i12{
+	width: 33.33%;
+    width: calc(100% / 3);
+	height:225px;
+	float:right;
+	margin:0 ;
+	position: relative;
+	
+	background:url("images/goats.jpg")  no-repeat;
+	background-size:cover;
+	border-style:solid;
+	border-color:white;
+	border-width:0;
+}.i13{
+	width: 33.33%;
+    width: calc(100% / 3);
+	height:225px;
+	float:right;
+	margin:0;
+	position: relative;
+	
+	background:url("images/sheep.jpg")  no-repeat;
+	background-size:cover;
+	border-style:solid;
+	border-color:white;
+	border-width:0;
+}.h1{
+	width: 100%;
+	height: 75px;
+	float: left;
+	background-color:palegreen;
+	margin:0;
+	color:green;
+}.t1{
+	width: 100%;
+	height:;
+	padding-bottom:10px;
+	float: left;
+	background-color:palegreen;
+	margin:0;
+}
+
+.i21{
+	width: 33.33%;
+    width: calc(100% / 3);
+	height:225px;
+	float:left;
+	margin:0;
+	position: relative;
+	
+	background:url("images/chicks.jpg")  no-repeat;
+	background-size:cover;
+	border-style:solid;
+	border-color:white;
+	border-width:0;
+}.i22{
+	width: 33.33%;
+    width: calc(100% / 3);
+	height:225px;
+	float:right;
+	margin:0 ;
+	position: relative;
+	
+	background:url("images/funnychicken.jpg")  no-repeat;
+	background-size:cover;
+	border-style:solid;
+	border-color:white;
+	border-width:0;
+}.i23{
+	width: 33.33%;
+    width: calc(100% / 3);
+	height:225px;
+	float:right;
+	margin:0;
+	position: relative;
+	
+	background:url("images/chickens.jpg")  no-repeat;
+	background-size:cover;
+	border-style:solid;
+	border-color:white;
+	border-width:0;
+}
+
+.i31{
+	width: 33.33%;
+    width: calc(100% / 3);
+	height:225px;
+	float:left;
+	margin:0;
+	position: relative;
+	
+	background:url("images/blackducks.jpg")  no-repeat;
+	background-size:cover;
+	border-style:solid;
+	border-color:white;
+	border-width:0;
+}.i32{
+	width: 33.33%;
+    width: calc(100% / 3);
+	height:225px;
+	float:right;
+	margin:0 ;
+	position: relative;
+	
+	background:url("images/yellowducks.jpg")  no-repeat;
+	background-size:cover;
+	border-style:solid;
+	border-color:white;
+	border-width:0;
+}.i33{
+	width: 33.33%;
+    width: calc(100% / 3);
+	height:225px;
+	float:right;
+	margin:0;
+	position: relative;
+	
+	background:url("images/ducklings.jpg")  no-repeat;
+	background-size:cover;
+	border-style:solid;
+	border-color:white;
+	border-width:0;
+}
+
+.i41{
+	width: 33.33%;
+    width: calc(100% / 3);
+	height:225px;
+	float:left;
+	margin:0;
+	position: relative;
+	
+	background:url("images/miniatureponies.jpg")  no-repeat;
+	background-size:cover;
+	border-style:solid;
+	border-color:white;
+	border-width:0;
+}.i42{
+	width: 33.33%;
+    width: calc(100% / 3);
+	height:225px;
+	float:right;
+	margin:0 ;
+	position: relative;
+	
+	background:url("images/miniaturepony.jpg")  no-repeat;
+	background-size:cover;
+	border-style:solid;
+	border-color:white;
+	border-width:0;
+}.i43{
+	width: 33.33%;
+    width: calc(100% / 3);
+	height:225px;
+	float:right;
+	margin:0;
+	position: relative;
+	
+	background:url("images/ponies.jpg")  no-repeat;
+	background-size:cover;
+	border-style:solid;
+	border-color:white;
+	border-width:0;
+}
+
+.i51{
+	width: 33.33%;
+    width: calc(100% / 3);
+	height:225px;
+	float:left;
+	margin:0;
+	position: relative;
+	
+	background:url("images/rabbit1.jpg")  no-repeat;
+	background-size:cover;
+	border-style:solid;
+	border-color:white;
+	border-width:0;
+}.i52{
+	width: 33.33%;
+    width: calc(100% / 3);
+	height:225px;
+	float:right;
+	margin:0 ;
+	position: relative;
+	
+	background:url("images/rabbit2.jpg")  no-repeat;
+	background-size:cover;
+	border-style:solid;
+	border-color:white;
+	border-width:0;
+}.i53{
+	width: 33.33%;
+    width: calc(100% / 3);
+	height:225px;
+	float:right;
+	margin:0;
+	position: relative;
+	
+	background:url("images/rabbit3.jpg")  no-repeat;
+	background-size:cover;
+	border-style:solid;
+	border-color:white;
+	border-width:0;
+}
+
+.c1{
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 10px 10px;
+    text-decoration: none;
+	font-size: 60px;
+	font-weight:600;
+	line-height:60px;
+	overflow:hidden;
+	width:auto;
+	font-family: 'Patrick Hand SC', cursive;
+	float:left;
+}
+
+.c1:hover{
+	color:green;
+}
+.contact{
+	border-radius:25px;
+	background-color: gold;
+	margin: 1%;
+	width:60%;
+	float:left;
+	height:650px;
+	
+}
+
+.mheading{
+	width:100%;
+	padding:1% 0%;
+	overflow:hidden;
+	float:left;
+	height:8em;
+	background:lightgreen;
+	border-style:solid;
+	border-width:0 0 4px 0;
+	border-color: rgba(144,218,144,1);
+}
+
+.mh3{
+	font-size:80px;
+	text-align:center;
+	font-family:"showcard gothic";
+	color:gold;
+	line-height: 50px;
+	text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	margin:.25em 0 0 0;
+	background:0;
+}
+
+.mh4{
+	font-size:40px;
+	text-align:center;
+	font-family:"showcard gothic";
+	color:rgb(173,255,47);
+	line-height: 20px;
+	text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	margin:.5em 0 0 0;
+	background:0;
+}
+
+.mbody{
+	background-color: gold;
+}
+
+.mopening{
+	text-align:center;
+	font-family:arial;
+	font-size:20px;
+	color:white;
+	margin:1% 0;
+	float:left;
+	width:100%;
+}
+
+.mbutton{
+	text-align:center;
+	height:60em;
+	background-color:green;
+	border-radius:12px;
+	margin:0 25%;
+	
+	border-radius:25px;
+	
+	margin: 1%;
+	width:60%;
+	float:left;
+	height:650px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

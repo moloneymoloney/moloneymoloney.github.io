@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<link href="style.css" type="text/css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC|Lato:700" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+	
+	</head>
+	<body>
+	
+	<script type="text/javascript">
+	<!--
+	if(screen.width <= 699) {
+	document.location = "mobile.html";
+	}
+	//-->
+	</script>
+	
+	<div class="heading">
+	<h3>Moloneys</h3>
+	<h4>Mobile Farm</h4>
+	</div>
+	
+	<div class="heading1">
+	<ul class="navbar">
+		<li class="topnav"><a class="booknow active" href="index.html">Home</a></li>
+		<li class="topnav"><a class="booknow" href="about.html">About</a></li>
+		<li class="topnav"><a class="booknow" href="animals.html">Animals</a></li>
+		<li class="topnav"><a class="booknow" href="photos.html">Photos</a></li>
+		<li class="topnav"><a class="booknow" href="contact.html">Contact</a></li>
+	</ul>
+	</div>
+	
+	
+	<div class="slideshow-container">
+
+<div class="mySlides fade">
+
+  <img src="images/view.jpg" style="width:100%;height:100%">
+  <div class="texts1">We are a family run mobile pet farm located in Tipperary in the South of Ireland...</div>
+</div>
+
+<div class="mySlides fade">
+ 
+  <img src="images/s1.jpg" style="width:100%;height:100%">
+  <div class="texts2">...Available for all events including birthdays, fundays, creches and much more...</div>
+</div>
+
+<div class="mySlides fade">
+
+  <img src="images/ducklings.jpg" style="width:100%;height:100%">
+  <div class="texts3">...Contact for more details and any questions!</div>
+</div>
+
+</div>
+
+
+
+	
+	
+	
+	
+	<!--div class="firstopeningimage">
+	</div-->
+	
+	<a class="buttonlink" href="about.html">
+	<div class="openingimage">
+	<div class="openingbutton">About</div>
+	</div>
+	</a>
+	
+	<a class="buttonlink" href="contact.html">
+	<div class="openingimage1">
+	<div class="openingbutton">Animals</div>
+	</div>
+	</a>
+	
+	<a class="buttonlink" href="about.html">
+	<div class="openingimage3">
+	<div class="openingbutton">Photos</div>
+	</div>
+	</a>
+	
+	<a class="buttonlink" href="contact.html">
+	<div class="openingimage4">
+	<div class="openingbutton">Contact</div>
+	</div>
+	</a>
+		
+	<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+	<footer>
+	
+	<ul class="footernav">
+		<li class="footerlist"><a class="listlink" href="home.html">Home</a></li>
+		<li class="footerlist"><a class="listlink" href="about.html">About</a></li>
+		<li class="footerlist"><a class="listlink" href="gallery.html">Animals</a></li>
+		<li class="footerlist"><a class="listlink" href="contact.html">Photos</a></li>
+		<li class="footerlist"><a class="listlink" href="gallery.html">Contact</a></li>
+	</ul>
+	
+	<div class="divide78">
+	<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FMoloneys-Mobile-Farm-457477597784303%2F&width=450&layout=standard&action=like&size=large&show_faces=true&share=true&height=80&appId" width="450" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+	</div>
+	
+	</footer>
+	
+	
+	<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active1", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active1";
+    setTimeout(showSlides, 6000); // Change image every 2 seconds
+}
+</script>
+	
+	</body>
+	
+</html>

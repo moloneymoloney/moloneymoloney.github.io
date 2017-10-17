@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<link href="style.css" type="text/css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC|Lato:700" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+	
+	</head>
+	<body>
+	
+	<div class="heading">
+	<h3>Moloneys</h3>
+	<h4>Mobile Farm</h4>
+	</div>
+	
+	<div class="heading1">
+	<ul class="navbar">
+		<li class="topnav"><a class="booknow" href="index.html">Home</a></li>
+		<li class="topnav"><a class="booknow" href="about.html">About</a></li>
+		<li class="topnav"><a class="booknow" href="animals.html">Animals</a></li>
+		<li class="topnav"><a class="booknow active" href="photos.html">Photos</a></li>
+		<li class="topnav"><a class="booknow" href="contact.html">Contact</a></li>
+	</ul>
+	</div>
+	
+	
+	
+	<div class="slideshow-container1">
+
+<div class="mySlides1 fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="images/view.jpg" style="width:100%;height:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides1 fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="images/s1.jpg" style="width:100%;height:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides1 fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="images/ducklings.jpg" style="width:100%;height:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center;margin-bottom:1%;">
+  <span class="dot1" onclick="currentSlide(1)"></span> 
+  <span class="dot1" onclick="currentSlide(2)"></span> 
+  <span class="dot1" onclick="currentSlide(3)"></span> 
+</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<footer>
+	
+	<ul class="footernav">
+		<li class="footerlist"><a class="listlink" href="index.html">Home</a></li>
+		<li class="footerlist"><a class="listlink" href="about.html">About</a></li>
+		<li class="footerlist"><a class="listlink" href="gallery.html">Animals</a></li>
+		<li class="footerlist"><a class="listlink" href="contact.html">Photos</a></li>
+		<li class="footerlist"><a class="listlink" href="gallery.html">Contact</a></li>
+	</ul>
+	
+	<div class="divide78">
+	<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FMoloneys-Mobile-Farm-457477597784303%2F&width=450&layout=standard&action=like&size=large&show_faces=true&share=true&height=80&appId" width="450" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+	</div>
+	
+	</footer>
+	
+	<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides1");
+  var dots = document.getElementsByClassName("dot1");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active1", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active1";
+}
+</script>
+	
+	</body>
+	
+</html>
