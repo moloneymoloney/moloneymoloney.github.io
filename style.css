@@ -353,14 +353,14 @@ footer{
 
 .strip{
 	float:left;
-	width:69%;
-	height:200px;
-	margin:1.5% 15.5% 0% 15.5%;
+	width:100%;
+	height:250px;
+	margin:0;
 }
 
 .box1{
-	width:22%;
-	margin:1.5% 1.5% 0% 15.5%;
+	width:24%;
+	margin:1.5% 1.5% 0% 12.5%;
 	height:480px;
 	float:left;
 	background: #ff6666;
@@ -370,7 +370,7 @@ footer{
 }
 
 .box2{
-	width:22%;
+	width:24%;
 	margin:1.5% 0% 0% 0%;
 	height:480px;
 	float:left;
@@ -381,8 +381,8 @@ footer{
 }
 
 .box3{
-	width:22%;
-	margin:1.5% 15.5% 0% 1.5%;
+	width:24%;
+	margin:1.5% 12.5% 0% 1.5%;
 	height:480px;
 	float:left;
 	background: #ffc04c;
@@ -391,8 +391,8 @@ footer{
 	border-color: #e5ac44;
 }
 .box4{
-	width:22%;
-	margin:1.5% 1.5% 0% 15.5%;
+	width:24%;
+	margin:1.5% 1.5% 0% 12.5%;
 	height:480px;
 	float:left;
 	background:#ffff66;
@@ -402,7 +402,7 @@ footer{
 }
 
 .box5{
-	width:22%;
+	width:24%;
 	margin:1.5% 0%;
 	height:480px;
 	float:left;
@@ -413,8 +413,8 @@ footer{
 }
 
 .box6{
-	width:22%;
-	margin:1.5% 15.5% 0% 1.5%;
+	width:24%;
+	margin:1.5% 12.5% 0% 1.5%;
 	height:480px;
 	float:left;
 	background:#C39797;
@@ -839,7 +839,7 @@ h2{
 	padding:1% 0%;
 	overflow:hidden;
 	float:left;
-	height:8em;
+	height:auto;
 	background:lightgreen;
 	border-style:solid;
 	border-width:0 0 4px 0;
@@ -847,9 +847,9 @@ h2{
 }
 
 .mh3{
-	font-size:80px;
+	font-size:60px;
 	text-align:center;
-	font-family:"showcard gothic";
+	font-family: 'Bowlby One SC', cursive;
 	color:gold;
 	line-height: 50px;
 	text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -858,9 +858,9 @@ h2{
 }
 
 .mh4{
-	font-size:40px;
+	font-size:30px;
 	text-align:center;
-	font-family:"showcard gothic";
+	font-family: 'Bowlby One SC', cursive;
 	color:rgb(173,255,47);
 	line-height: 20px;
 	text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -897,11 +897,23 @@ h2{
 	height:650px;
 }
 
+.mposter{
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	height:auto;
+	max-width:700px;
+	display:block;
+}
 
+.mfblink{
+	text-decoration:none;
+	color:green;
+}
 
-
-
-
+.mfblink:hover{
+	color:orange;
+}
 
 
 
