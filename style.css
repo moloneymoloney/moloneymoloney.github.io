@@ -353,14 +353,14 @@ footer{
 
 .strip{
 	float:left;
-	width:69%;
-	height:200px;
-	margin:1.5% 15.5% 0% 15.5%;
+	width:100%;
+	height:250px;
+	margin:0;
 }
 
 .box1{
-	width:22%;
-	margin:1.5% 1.5% 0% 15.5%;
+	width:24%;
+	margin:1.5% 1.5% 0% 12.5%;
 	height:480px;
 	float:left;
 	background: #ff6666;
@@ -370,7 +370,7 @@ footer{
 }
 
 .box2{
-	width:22%;
+	width:24%;
 	margin:1.5% 0% 0% 0%;
 	height:480px;
 	float:left;
@@ -381,8 +381,8 @@ footer{
 }
 
 .box3{
-	width:22%;
-	margin:1.5% 15.5% 0% 1.5%;
+	width:24%;
+	margin:1.5% 12.5% 0% 1.5%;
 	height:480px;
 	float:left;
 	background: #ffc04c;
@@ -391,8 +391,8 @@ footer{
 	border-color: #e5ac44;
 }
 .box4{
-	width:22%;
-	margin:1.5% 1.5% 0% 15.5%;
+	width:24%;
+	margin:1.5% 1.5% 0% 12.5%;
 	height:480px;
 	float:left;
 	background:#ffff66;
@@ -402,7 +402,7 @@ footer{
 }
 
 .box5{
-	width:22%;
+	width:24%;
 	margin:1.5% 0%;
 	height:480px;
 	float:left;
@@ -413,8 +413,8 @@ footer{
 }
 
 .box6{
-	width:22%;
-	margin:1.5% 15.5% 0% 1.5%;
+	width:24%;
+	margin:1.5% 12.5% 0% 1.5%;
 	height:480px;
 	float:left;
 	background:#C39797;
