@@ -16,7 +16,7 @@ body{
 }
 
 h3{
-	font-size:500%;
+	font-size:450%;
 	text-align:center;
 	font-family:"showcard gothic";
 	color:gold;
@@ -24,6 +24,8 @@ h3{
 	text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	margin: 0 0 0 0;
 	background:0;
+	position:relative;
+	z-index:1;
 }
 
 h4{
@@ -33,21 +35,22 @@ h4{
 	color:rgb(173,255,47);
 	line-height: 1.25%;
 	text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-	margin:.5em 0 0em 0;
+	margin:.5em 0 0 0;
 	background:0;
+	position:relative;
 }
 
 .heading{
 	width:30%;
 	padding-left:5%;
 	padding-top:10px;
-	overflow:hidden;
 	float:left;
 	height:130px;
 	background:lightgreen;
 	border-style:solid;
 	border-width:0 0 4px 0;
 	border-color: rgba(144,218,144,1);
+	
 }
 
 .heading1{
@@ -150,7 +153,7 @@ h4{
 .openingimage4{
 	float:left;
 	width:40%;
-	background:url("images/comedyclub.jpg")  no-repeat;
+	background:url("images/rabbit3.jpg")  no-repeat;
 	background-size:cover;
 	height:350px;
 	overflow:hidden;
@@ -190,7 +193,7 @@ h4{
 
 footer{
 	background-color: rgba(144,238,144,1);
-	margin: 0px 0 0 0;
+	margin: 2% 0 0 0;
 	padding-left:10%;
 	padding-right:auto;
 	padding-top: 25px;
@@ -250,7 +253,7 @@ footer{
   width:80%;
   height:400px;
   position: relative;
-  margin: 0px 10% 0 10%;
+  margin: 2% 10% 0 10%;
   float:left;
   padding:0;
 }
@@ -827,8 +830,8 @@ h2{
 .contact{
 	border-radius:25px;
 	background-color: gold;
-	margin: 1%;
-	width:60%;
+	margin: 1% 1% 1% 5%;
+	width:50%;
 	float:left;
 	height:650px;
 	
@@ -840,6 +843,7 @@ h2{
 	overflow:hidden;
 	float:left;
 	height:auto;
+	height:7em;
 	background:lightgreen;
 	border-style:solid;
 	border-width:0 0 4px 0;
@@ -851,7 +855,7 @@ h2{
 	text-align:center;
 	font-family: 'Bowlby One SC', cursive;
 	color:gold;
-	line-height: 50px;
+	line-height: 40px;
 	text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	margin:.25em 0 0 0;
 	background:0;
@@ -862,7 +866,7 @@ h2{
 	text-align:center;
 	font-family: 'Bowlby One SC', cursive;
 	color:rgb(173,255,47);
-	line-height: 20px;
+	line-height: 15px;
 	text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	margin:.5em 0 0 0;
 	background:0;
@@ -916,17 +920,11 @@ h2{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.break{
+	height:200px;
+	width:80%;
+	background-color:lightgreen;
+	float:left;
+	margin:2% 10% 2% 10%;
+	
+}
